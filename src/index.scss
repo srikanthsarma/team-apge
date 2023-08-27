@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: #eee;
+  color: #111;
+}
+
+.hero-container {
+  padding: 5rem;
+  background: #444;
+  color: #ddd;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+
+.uni-container {
+  max-width: 1400px;
+  padding: 2rem;
+  margin: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.uni-card {
+  height: 7.5rem;
+  background: rgba($color: #fff, $alpha: 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+
+  box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.2);
+  border: 1px solid rgba($color: #000000, $alpha: 0.1);
+  border-radius: 0.5rem;
+
+  transform: scale(1);
+  transition: transform 250ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 12px rgba($color: #000, $alpha: 0.1);
+    transition: transform 250ms ease-in-out;
+  }
+}
+
+.mentors-container {
+  max-width: 1400px;
+  padding: 1rem;
+
+  &>h1 {
+    text-align: center;
+  }
+}
+
+.mentor-container {
+  padding: 2rem;
+  margin: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+
+.mentor-card {
+  background: rgba($color: #fff, $alpha: 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+
+  box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.2);
+  border: 1px solid rgba($color: #000000, $alpha: 0.1);
+  border-radius: 0.5rem;
+
+  transform: scale(1);
+  transition: transform 250ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 12px rgba($color: #000, $alpha: 0.1);
+    transition: transform 250ms ease-in-out;
+  }
+}
+
+.name-container {
+  text-align: center;
+
+  &>* {
+    margin-block: 0.25rem;
+  }
+
+  &>p {
+    font-size: 0.85rem;
+    color: rgba($color: #000000, $alpha: 0.75);
+  }
+}
+
+
+
+.advisors-container {
+  max-width: 1400px;
+  padding: 1rem;
+
+  &>h1 {
+    text-align: center;
+  }
+}
+
+.advisor-container {
+  padding: 2rem;
+  margin: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.advisor-card {
+  background: rgba($color: #fff, $alpha: 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+
+  box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.2);
+  border: 1px solid rgba($color: #000000, $alpha: 0.1);
+  border-radius: 0.5rem;
+
+  transform: scale(1);
+  transition: transform 250ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 12px rgba($color: #000, $alpha: 0.1);
+    transition: transform 250ms ease-in-out;
+  }
+}
