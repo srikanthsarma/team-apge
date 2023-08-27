@@ -1,3 +1,10 @@
+# Website is Live [Here](https://team-page-kappa.vercel.app)
+
+## Preview 
+![Screenshot](https://github.com/srikanthsarma/team-page/blob/main/src/ScreenShots/SciAstra_team-page.png)
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
